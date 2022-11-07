@@ -96,8 +96,7 @@ public class ConnexionBanque {
 		
 		bernardTapie.setComptes(comptesNanard);
 		
-		em.merge(bernardTapie);
-		
+		//em.merge(bernardTapie);
 		
 		Client nanardQuery = em.find(Client.class, bernardTapie.getId());
 		
